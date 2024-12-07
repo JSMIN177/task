@@ -22,5 +22,5 @@ void toggleBit(unsigned int *number, int bitPosition) {
 }
 
 // Function to read a bit
-int readBit(unsigned int number, int bitPosition) {
+int readBit(unsigned int number, int bitPosition) }
     return (number >> bitPosition) & 1;
